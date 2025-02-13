@@ -1,0 +1,81 @@
+html{
+    font-family: monospace;
+    color: white;
+    /* color: white; */
+    background-color: #161616; 
+    /* background-color: #1E1E1E; */
+    /* background-color: #111111; */
+}
+h1{
+    text-align: center;
+    /* text-decoration: underline; */
+}
+
+.container {
+    display: flex;
+    height: 100vh; /* Full height of the viewport */
+}
+.sidebar{
+    background-color: #1E1E1E;
+    position: sticky;
+    left: 0;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    z-index: 1000;
+    width: 300px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.content{
+    flex: 1; /* Take the remaining space */
+    padding: 20px;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center; /* Center text */
+}
+
+.content-icon{
+    width: 20%;
+}
+
+.icon{
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.button{
+    margin: 5px;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: rgba(81, 128, 105, 0.5);
+    border-radius: 5px;
+}
+
+.button-text{
+    color: white;
+
+}
+
+.content{
+    background-color: #111111;
+    /* text-align: center; */
+    height: 780px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.projects{
+    list-style-type: none;
+    margin-bottom: 800px;   /* Adjust this value to increase/decrease space */}
+.project-icons{
+    width: 175px;
+}
