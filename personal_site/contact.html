@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar"> <!--SIDEBAR-->
+            
+            <h1>CONTACT</h1>
+
+            <a href="index.html" class="button">
+                <img src="images/home_icon.png" alt="Icon" class="icon">
+            </a>
+            <a href="about.html" class="button">
+                <img src="images/about_icon.png" alt="Icon" class="icon">
+            </a>
+            <a href="portfolio.html" class="button">
+                <img src="images/portfolio_icon.png" alt="Icon" class="icon">
+            </a>
+            <a href="contact.html" class="button" id="selected_button">
+                <img src="images/mail_icon.png" alt="Icon" class="icon">
+            </a>
+        </div>
+
+        <div class="content">
+            
+            <div class="contact_form">
+                <form action="./success.html" id="form" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" >
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" >
+            
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" ></textarea>
+            
+                    <button id="submit" type="submit">Submit</button>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</body>
