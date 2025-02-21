@@ -10,6 +10,7 @@ Pages:
     This quote serves as a reminder of our connection to the universe and invites visitors to ponder our place within it.
 2. About Page - The about page offers a deeper insight into my background, skills, and experiences. Here, visitors can learn more about my journey, values, and what inspires me in my work.
 3. Portfolio Page - The portfolio page showcases my projects and accomplishments. It features a curated selection of my best work. This section highlights my skills and expertise in various areas.
+4. New Contact Page
 
 
 To explore the website, simply navigate through the menu to access each page.
